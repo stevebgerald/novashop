@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NovaShop - Tecnología que conecta tu mundo</title>
+    <link rel="icon" href="assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@500;600;700;800&display=swap">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/tienda.css">
+</head>
+<body data-pagina="inicio">
+
+<div id="cabecera"></div>
+
+<main class="ns-main">
+<section class="ns-hero">
+    <div class="ns-container ns-hero__grid">
+        <div class="ns-hero__copy">
+            <p class="ns-eyebrow">NovaShop · Tecnología</p>
+            <h1>Tecnología que conecta tu mundo</h1>
+            <p class="ns-hero__lead">Calidad, precio y envíos rápidos. Descubrí auriculares, smartphones, notebooks y más con garantía oficial.</p>
+            <a class="ns-btn ns-btn--accent" href="tienda.html?ofertas=1">Ver ofertas</a>
+        </div>
+        <div class="ns-hero__visual">
+            <img class="ns-hero__img" src="assets/img/hero-devices.png" alt="Notebook, smartphone, auriculares y smartwatch NovaShop" width="800" height="450">
+        </div>
+    </div>
+</section>
+
+<section class="ns-trust">
+    <div class="ns-container ns-trust__row">
+        <div class="ns-trust__item">
+            <span class="ns-trust__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7.5" cy="18" r="1.6"/><circle cx="17.5" cy="18" r="1.6"/></svg></span>
+            <div>
+                <strong>Envío rápido</strong>
+                <p>A todo el país</p>
+            </div>
+        </div>
+        <div class="ns-trust__item">
+            <span class="ns-trust__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+            <div>
+                <strong>Pago seguro</strong>
+                <p>Compra protegida</p>
+            </div>
+        </div>
+        <div class="ns-trust__item">
+            <span class="ns-trust__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <div>
+                <strong>Garantía oficial</strong>
+                <p>Soporte personalizado</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ns-section">
+    <div class="ns-container">
+        <div class="ns-section__head">
+            <h2>Comprá por categoría</h2>
+            <a class="ns-link" href="tienda.html">Ver todo</a>
+        </div>
+        <div class="ns-categorias" id="categorias-inicio"></div>
+    </div>
+</section>
+
+<section class="ns-section ns-section--junta">
+    <div class="ns-container">
+        <div class="ns-section__head">
+            <h2>Productos destacados</h2>
+            <a class="ns-link" href="tienda.html">Ver catálogo</a>
+        </div>
+        <div class="ns-grid ns-grid--4" id="destacados"></div>
+    </div>
+</section>
+
+<section class="ns-section ns-section--junta">
+    <div class="ns-container">
+        <div class="ns-section__head">
+            <h2>Ofertas de la semana</h2>
+            <a class="ns-link" href="tienda.html?ofertas=1">Ver todas</a>
+        </div>
+        <div class="ns-grid ns-grid--4" id="ofertas-inicio"></div>
+    </div>
+</section>
+
+<section class="ns-cta">
+    <div class="ns-container ns-cta__inner">
+        <h2>¿Tenés una consulta? Hablá con nuestro bot</h2>
+        <p>Consultá precios, ofertas, envíos y medios de pago acá mismo o desde Telegram, a cualquier hora.</p>
+        <div class="ns-cta__actions">
+            <a class="ns-btn ns-btn--light" href="tienda.html">Ir a la tienda</a>
+            <button type="button" class="ns-btn ns-btn--accent" data-abrir-chat>Chatear ahora</button>
+        </div>
+    </div>
+</section>
+</main>
+
+<div id="pie"></div>
+
+<script src="assets/js/tienda.js"></script>
+<script src="assets/js/chat.js"></script>
+</body>
+</html>

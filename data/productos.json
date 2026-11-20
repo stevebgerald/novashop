@@ -1,0 +1,631 @@
+{
+  "categorias": {
+    "tecnologia": "Tecnología",
+    "audio": "Audio",
+    "smartphones": "Smartphones",
+    "wearables": "Wearables",
+    "accesorios": "Accesorios"
+  },
+  "productos": [
+    {
+      "slug": "novasound-pro",
+      "nombre": "Auriculares Inalámbricos NovaSound Pro",
+      "precio": 129.99,
+      "oferta": 109.99,
+      "categoria": "audio",
+      "destacado": true,
+      "imagen": "earbuds.png",
+      "descripcion": "Cancelación de ruido, batería de 30 h y sonido Hi-Fi. Ideales para trabajo y viaje."
+    },
+    {
+      "slug": "novafit-x",
+      "nombre": "Smartwatch NovaFit X",
+      "precio": 199.0,
+      "oferta": 169.0,
+      "categoria": "wearables",
+      "destacado": true,
+      "imagen": "smartwatch.png",
+      "descripcion": "GPS, monitor cardíaco y resistencia al agua. Pantalla AMOLED brillante."
+    },
+    {
+      "slug": "novabook-air-14",
+      "nombre": "Notebook NovaBook Air 14\"",
+      "precio": 899.0,
+      "oferta": 799.0,
+      "categoria": "tecnologia",
+      "destacado": true,
+      "imagen": "laptop.png",
+      "descripcion": "Ultraliviana, SSD 512 GB, 16 GB RAM. Perfecta para estudiar y crear."
+    },
+    {
+      "slug": "novaphone-12",
+      "nombre": "Smartphone NovaPhone 12",
+      "precio": 649.0,
+      "oferta": null,
+      "categoria": "smartphones",
+      "destacado": true,
+      "imagen": "phone.png",
+      "descripcion": "Cámara dual, carga rápida y pantalla fluida 120 Hz."
+    },
+    {
+      "slug": "overear-studio",
+      "nombre": "Auriculares Over-Ear Studio",
+      "precio": 89.0,
+      "oferta": 74.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "headphones.png",
+      "descripcion": "Drivers de 40 mm, almohadillas memory foam y cable desmontable."
+    },
+    {
+      "slug": "novaboom",
+      "nombre": "Parlante Bluetooth NovaBoom",
+      "precio": 59.99,
+      "oferta": null,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "speaker.png",
+      "descripcion": "IPX7, 12 h de batería y graves potentes para exteriores."
+    },
+    {
+      "slug": "novaclick",
+      "nombre": "Mouse Ergonómico NovaClick",
+      "precio": 34.9,
+      "oferta": 29.9,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "mouse.png",
+      "descripcion": "Silencioso, recargable y sensor 4000 DPI."
+    },
+    {
+      "slug": "novakeys",
+      "nombre": "Teclado Mecánico NovaKeys",
+      "precio": 79.0,
+      "oferta": null,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "keyboard.png",
+      "descripcion": "Switches táctiles, RGB y layout español."
+    },
+    {
+      "slug": "novacam-4k",
+      "nombre": "Webcam NovaCam 4K",
+      "precio": 119.0,
+      "oferta": 99.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "webcam.png",
+      "descripcion": "Resolución 4K, autofoco y micrófono dual con reducción de ruido."
+    },
+    {
+      "slug": "novabuds-mini",
+      "nombre": "Earbuds NovaBuds Mini",
+      "precio": 49.0,
+      "oferta": 39.0,
+      "categoria": "audio",
+      "destacado": true,
+      "imagen": "earbuds.png",
+      "descripcion": "Estuche compacto, ANC ligera y app de ecualización."
+    },
+    {
+      "slug": "novatab-11",
+      "nombre": "Tablet NovaTab 11",
+      "precio": 429.0,
+      "oferta": null,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "laptop.png",
+      "descripcion": "Pantalla 2K, stylus compatible y batería de larga duración."
+    },
+    {
+      "slug": "novapower-65",
+      "nombre": "Cargador GaN 65W NovaPower",
+      "precio": 39.0,
+      "oferta": 32.0,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "speaker.png",
+      "descripcion": "Carga notebook + teléfono a la vez. Compacto y seguro."
+    },
+    {
+      "slug": "novabuds-air",
+      "nombre": "Earbuds NovaBuds Air",
+      "precio": 69.0,
+      "oferta": 55.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "earbuds.png",
+      "descripcion": "Livianos, 24 h de batería con el estuche y carga por USB-C."
+    },
+    {
+      "slug": "novabuds-sport",
+      "nombre": "Earbuds NovaBuds Sport",
+      "precio": 59.0,
+      "oferta": null,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "earbuds.png",
+      "descripcion": "Resistentes al sudor (IPX5), con ganchos para correr y entrenar."
+    },
+    {
+      "slug": "novabuds-pro-2",
+      "nombre": "Earbuds NovaBuds Pro 2",
+      "precio": 149.0,
+      "oferta": 119.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "earbuds.png",
+      "descripcion": "Cancelación activa de ruido, modo ambiente y carga inalámbrica."
+    },
+    {
+      "slug": "novabuds-lite",
+      "nombre": "Earbuds NovaBuds Lite",
+      "precio": 29.0,
+      "oferta": 24.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "earbuds.png",
+      "descripcion": "Los más económicos: Bluetooth 5.3 y 18 h de batería."
+    },
+    {
+      "slug": "novabuds-gaming",
+      "nombre": "Earbuds NovaBuds Gaming",
+      "precio": 79.0,
+      "oferta": null,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "earbuds.png",
+      "descripcion": "Baja latencia para juegos y micrófono con reducción de ruido."
+    },
+    {
+      "slug": "novasound-lite",
+      "nombre": "Auriculares Inalámbricos NovaSound Lite",
+      "precio": 89.0,
+      "oferta": 69.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "earbuds.png",
+      "descripcion": "Sonido equilibrado, control táctil y 26 h de batería."
+    },
+    {
+      "slug": "overear-studio-pro",
+      "nombre": "Auriculares Over-Ear Studio Pro",
+      "precio": 139.0,
+      "oferta": 115.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "headphones.png",
+      "descripcion": "Drivers de 50 mm, sonido de estudio y cable trenzado de 3 m."
+    },
+    {
+      "slug": "novabass-500",
+      "nombre": "Auriculares NovaBass 500",
+      "precio": 99.0,
+      "oferta": null,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "headphones.png",
+      "descripcion": "Graves reforzados, plegables y con 40 h de batería."
+    },
+    {
+      "slug": "novaquiet-anc",
+      "nombre": "Auriculares NovaQuiet ANC",
+      "precio": 179.0,
+      "oferta": 149.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "headphones.png",
+      "descripcion": "Cancelación de ruido híbrida, ideales para viajar y trabajar."
+    },
+    {
+      "slug": "novastrike-headset",
+      "nombre": "Auriculares Gamer NovaStrike",
+      "precio": 69.0,
+      "oferta": 59.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "headphones.png",
+      "descripcion": "Sonido envolvente 7.1 y micrófono desmontable."
+    },
+    {
+      "slug": "novalite-onear",
+      "nombre": "Auriculares NovaLite On-Ear",
+      "precio": 39.0,
+      "oferta": null,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "headphones.png",
+      "descripcion": "Livianos y plegables, con cable y micrófono en línea."
+    },
+    {
+      "slug": "overear-studio-wireless",
+      "nombre": "Auriculares Over-Ear Studio Wireless",
+      "precio": 119.0,
+      "oferta": 95.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "headphones.png",
+      "descripcion": "Bluetooth multipunto, 35 h de batería y entrada auxiliar."
+    },
+    {
+      "slug": "novaboom-mini",
+      "nombre": "Parlante Bluetooth NovaBoom Mini",
+      "precio": 34.0,
+      "oferta": 27.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "speaker.png",
+      "descripcion": "De bolsillo, resistente al agua y con 10 h de batería."
+    },
+    {
+      "slug": "novaboom-xl",
+      "nombre": "Parlante Bluetooth NovaBoom XL",
+      "precio": 119.0,
+      "oferta": 99.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "speaker.png",
+      "descripcion": "40 W de potencia, 20 h de batería y carga para el celular."
+    },
+    {
+      "slug": "novaparty-200",
+      "nombre": "Parlante NovaParty 200",
+      "precio": 189.0,
+      "oferta": null,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "speaker.png",
+      "descripcion": "Luces LED, entrada para micrófono y sonido para fiestas."
+    },
+    {
+      "slug": "novaboom-go",
+      "nombre": "Parlante Bluetooth NovaBoom Go",
+      "precio": 45.0,
+      "oferta": 38.0,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "speaker.png",
+      "descripcion": "Con correa para colgar, IPX7 y 14 h de batería."
+    },
+    {
+      "slug": "novahome-360",
+      "nombre": "Parlante NovaHome 360",
+      "precio": 99.0,
+      "oferta": null,
+      "categoria": "audio",
+      "destacado": false,
+      "imagen": "speaker.png",
+      "descripcion": "Sonido en 360 grados para el hogar, con Wi-Fi y Bluetooth."
+    },
+    {
+      "slug": "novakeys-tkl",
+      "nombre": "Teclado Mecánico NovaKeys TKL",
+      "precio": 69.0,
+      "oferta": 59.0,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "keyboard.png",
+      "descripcion": "Sin teclado numérico, switches rojos y cable desmontable."
+    },
+    {
+      "slug": "novakeys-60",
+      "nombre": "Teclado Mecánico NovaKeys 60%",
+      "precio": 59.0,
+      "oferta": null,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "keyboard.png",
+      "descripcion": "Compacto, ideal para escritorios chicos, con RGB."
+    },
+    {
+      "slug": "novakeys-pro-wireless",
+      "nombre": "Teclado Mecánico NovaKeys Pro Wireless",
+      "precio": 109.0,
+      "oferta": 89.0,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "keyboard.png",
+      "descripcion": "Inalámbrico, switches intercambiables y batería de 200 h."
+    },
+    {
+      "slug": "novatype-slim",
+      "nombre": "Teclado NovaType Slim",
+      "precio": 39.0,
+      "oferta": 32.0,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "keyboard.png",
+      "descripcion": "Perfil bajo y silencioso, se conecta hasta a 3 dispositivos."
+    },
+    {
+      "slug": "novakeys-gamer-rgb",
+      "nombre": "Teclado Gamer NovaKeys RGB",
+      "precio": 89.0,
+      "oferta": 75.0,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "keyboard.png",
+      "descripcion": "Switches azules, anti-ghosting y apoyamuñecas."
+    },
+    {
+      "slug": "novatype-office",
+      "nombre": "Teclado NovaType Office",
+      "precio": 24.0,
+      "oferta": null,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "keyboard.png",
+      "descripcion": "Con cable, layout español y teclas resistentes a derrames."
+    },
+    {
+      "slug": "novaclick-pro",
+      "nombre": "Mouse NovaClick Pro",
+      "precio": 49.9,
+      "oferta": 42.9,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "mouse.png",
+      "descripcion": "Sensor de 8000 DPI, 6 botones programables y carga USB-C."
+    },
+    {
+      "slug": "novaclick-mini",
+      "nombre": "Mouse NovaClick Mini",
+      "precio": 19.9,
+      "oferta": null,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "mouse.png",
+      "descripcion": "Compacto e inalámbrico, ideal para la notebook."
+    },
+    {
+      "slug": "novastrike-mouse",
+      "nombre": "Mouse Gamer NovaStrike",
+      "precio": 39.9,
+      "oferta": 33.9,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "mouse.png",
+      "descripcion": "12000 DPI, RGB y solo 65 gramos de peso."
+    },
+    {
+      "slug": "novaclick-vertical",
+      "nombre": "Mouse Vertical NovaClick",
+      "precio": 44.9,
+      "oferta": null,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "mouse.png",
+      "descripcion": "Diseño vertical que cuida la muñeca en jornadas largas."
+    },
+    {
+      "slug": "novaclick-silent",
+      "nombre": "Mouse NovaClick Silent",
+      "precio": 27.9,
+      "oferta": 22.9,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "mouse.png",
+      "descripcion": "Clics silenciosos y batería de hasta 12 meses."
+    },
+    {
+      "slug": "novaclick-travel",
+      "nombre": "Mouse NovaClick Travel",
+      "precio": 24.9,
+      "oferta": 19.9,
+      "categoria": "accesorios",
+      "destacado": false,
+      "imagen": "mouse.png",
+      "descripcion": "Plano y liviano, con Bluetooth y funda de viaje."
+    },
+    {
+      "slug": "novabook-air-13",
+      "nombre": "Notebook NovaBook Air 13\"",
+      "precio": 749.0,
+      "oferta": 679.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "laptop.png",
+      "descripcion": "Solo 1,1 kg, SSD 256 GB y 8 GB RAM. Batería para todo el día."
+    },
+    {
+      "slug": "novabook-pro-15",
+      "nombre": "Notebook NovaBook Pro 15\"",
+      "precio": 1199.0,
+      "oferta": 1049.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "laptop.png",
+      "descripcion": "Pantalla 2K, SSD 1 TB y 16 GB RAM para trabajo exigente."
+    },
+    {
+      "slug": "novabook-pro-16",
+      "nombre": "Notebook NovaBook Pro 16\"",
+      "precio": 1499.0,
+      "oferta": null,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "laptop.png",
+      "descripcion": "Pantalla de 16 pulgadas a 120 Hz, 32 GB RAM y SSD 1 TB."
+    },
+    {
+      "slug": "novabook-go-14",
+      "nombre": "Notebook NovaBook Go 14\"",
+      "precio": 499.0,
+      "oferta": 449.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "laptop.png",
+      "descripcion": "Económica para estudiar: SSD 256 GB, 8 GB RAM y teclado español."
+    },
+    {
+      "slug": "novabook-gamer-15",
+      "nombre": "Notebook Gamer NovaBook 15\"",
+      "precio": 1349.0,
+      "oferta": 1199.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "laptop.png",
+      "descripcion": "Placa de video dedicada, pantalla 144 Hz y teclado RGB."
+    },
+    {
+      "slug": "novabook-studio-14",
+      "nombre": "Notebook NovaBook Studio 14\"",
+      "precio": 999.0,
+      "oferta": null,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "laptop.png",
+      "descripcion": "Pantalla OLED táctil, 16 GB RAM y lápiz incluido."
+    },
+    {
+      "slug": "novaphone-12-pro",
+      "nombre": "Smartphone NovaPhone 12 Pro",
+      "precio": 799.0,
+      "oferta": 729.0,
+      "categoria": "smartphones",
+      "destacado": false,
+      "imagen": "phone.png",
+      "descripcion": "Triple cámara de 50 MP, 256 GB y carga rápida de 65 W."
+    },
+    {
+      "slug": "novaphone-12-lite",
+      "nombre": "Smartphone NovaPhone 12 Lite",
+      "precio": 399.0,
+      "oferta": 349.0,
+      "categoria": "smartphones",
+      "destacado": false,
+      "imagen": "phone.png",
+      "descripcion": "Pantalla de 6,5 pulgadas, 128 GB y batería de 5000 mAh."
+    },
+    {
+      "slug": "novaphone-13",
+      "nombre": "Smartphone NovaPhone 13",
+      "precio": 749.0,
+      "oferta": null,
+      "categoria": "smartphones",
+      "destacado": false,
+      "imagen": "phone.png",
+      "descripcion": "Nuevo procesador, pantalla AMOLED 120 Hz y 256 GB."
+    },
+    {
+      "slug": "novaphone-13-pro-max",
+      "nombre": "Smartphone NovaPhone 13 Pro Max",
+      "precio": 1099.0,
+      "oferta": 999.0,
+      "categoria": "smartphones",
+      "destacado": false,
+      "imagen": "phone.png",
+      "descripcion": "Pantalla de 6,8 pulgadas, zoom óptico 5x y 512 GB."
+    },
+    {
+      "slug": "novaphone-se",
+      "nombre": "Smartphone NovaPhone SE",
+      "precio": 299.0,
+      "oferta": 259.0,
+      "categoria": "smartphones",
+      "destacado": false,
+      "imagen": "phone.png",
+      "descripcion": "Compacto y económico, con 5G y 128 GB."
+    },
+    {
+      "slug": "novaphone-11",
+      "nombre": "Smartphone NovaPhone 11",
+      "precio": 449.0,
+      "oferta": 379.0,
+      "categoria": "smartphones",
+      "destacado": false,
+      "imagen": "phone.png",
+      "descripcion": "Cámara dual, 128 GB y dos días de batería."
+    },
+    {
+      "slug": "novafit-lite",
+      "nombre": "Smartwatch NovaFit Lite",
+      "precio": 79.0,
+      "oferta": 65.0,
+      "categoria": "wearables",
+      "destacado": false,
+      "imagen": "smartwatch.png",
+      "descripcion": "Pasos, sueño y notificaciones. Batería de 10 días."
+    },
+    {
+      "slug": "novafit-pro",
+      "nombre": "Smartwatch NovaFit Pro",
+      "precio": 249.0,
+      "oferta": 219.0,
+      "categoria": "wearables",
+      "destacado": false,
+      "imagen": "smartwatch.png",
+      "descripcion": "Llamadas por Bluetooth, GPS doble banda y oxígeno en sangre."
+    },
+    {
+      "slug": "novafit-sport",
+      "nombre": "Smartwatch NovaFit Sport",
+      "precio": 149.0,
+      "oferta": null,
+      "categoria": "wearables",
+      "destacado": false,
+      "imagen": "smartwatch.png",
+      "descripcion": "Más de 100 modos deportivos y resistencia 5 ATM."
+    },
+    {
+      "slug": "novafit-kids",
+      "nombre": "Smartwatch NovaFit Kids",
+      "precio": 59.0,
+      "oferta": 49.0,
+      "categoria": "wearables",
+      "destacado": false,
+      "imagen": "smartwatch.png",
+      "descripcion": "Para chicos: localización, llamadas y botón de emergencia."
+    },
+    {
+      "slug": "novafit-classic",
+      "nombre": "Smartwatch NovaFit Classic",
+      "precio": 189.0,
+      "oferta": null,
+      "categoria": "wearables",
+      "destacado": false,
+      "imagen": "smartwatch.png",
+      "descripcion": "Diseño clásico con malla de cuero y pantalla siempre encendida."
+    },
+    {
+      "slug": "novacam-hd",
+      "nombre": "Webcam NovaCam HD",
+      "precio": 39.0,
+      "oferta": 32.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "webcam.png",
+      "descripcion": "720p con micrófono, lista para clases y reuniones."
+    },
+    {
+      "slug": "novacam-full-hd",
+      "nombre": "Webcam NovaCam Full HD",
+      "precio": 69.0,
+      "oferta": null,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "webcam.png",
+      "descripcion": "1080p a 30 fps, tapa de privacidad y clip universal."
+    },
+    {
+      "slug": "novacam-pro-4k",
+      "nombre": "Webcam NovaCam Pro 4K",
+      "precio": 159.0,
+      "oferta": 135.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "webcam.png",
+      "descripcion": "4K con HDR, encuadre automático y dos micrófonos."
+    },
+    {
+      "slug": "novacam-stream",
+      "nombre": "Webcam NovaCam Stream",
+      "precio": 99.0,
+      "oferta": 85.0,
+      "categoria": "tecnologia",
+      "destacado": false,
+      "imagen": "webcam.png",
+      "descripcion": "1080p a 60 fps con aro de luz, pensada para streaming."
+    }
+  ]
+}

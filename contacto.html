@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto - NovaShop</title>
+    <link rel="icon" href="assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@500;600;700;800&display=swap">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/tienda.css">
+</head>
+<body data-pagina="contacto">
+
+<div id="cabecera"></div>
+
+<main class="ns-main">
+<section class="ns-page-hero">
+    <div class="ns-container">
+        <nav class="ns-breadcrumbs" aria-label="Breadcrumb">
+            <a href="index.html">Inicio</a>
+            <span>/</span>
+            <span>Contacto</span>
+        </nav>
+        <h1>Contacto</h1>
+        <p class="ns-lead">¿Tenés una consulta sobre un producto, envío o garantía? Escribinos y te respondemos a la brevedad.</p>
+    </div>
+</section>
+
+<section class="ns-section">
+    <div class="ns-container ns-contact">
+        <div class="ns-contact__info">
+            <h2>Estamos para ayudarte</h2>
+            <ul class="ns-contact__list">
+                <li>
+                    <strong>Chat</strong>
+                    <span><a class="ns-link" href="bot.html" data-abrir-chat>Bot de NovaShop</a>, responde las 24 hs</span>
+                </li>
+                <li>
+                    <strong>Horario</strong>
+                    <span>Lunes a viernes · 9:00 a 18:00</span>
+                </li>
+                <li>
+                    <strong>Soporte</strong>
+                    <span>Envíos, pagos y garantía oficial</span>
+                </li>
+                <li>
+                    <strong>Tienda</strong>
+                    <span>Tecnología con entrega a todo el país</span>
+                </li>
+            </ul>
+            <div class="ns-contact__perks">
+                <p>✓ Respuesta en menos de 24 hs hábiles</p>
+                <p>✓ Asesoramiento de producto</p>
+                <p>✓ Seguimiento de pedidos</p>
+            </div>
+        </div>
+
+        <div class="ns-contact__form-wrap">
+            <div id="aviso-contacto" hidden></div>
+
+            <form class="ns-contact-form" id="form-contacto">
+                <div class="ns-form-row">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                </div>
+                <div class="ns-form-grid">
+                    <div class="ns-form-row">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+                    <div class="ns-form-row">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+54 ...">
+                    </div>
+                </div>
+                <div class="ns-form-row">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Consulta sobre un producto">
+                </div>
+                <div class="ns-form-row">
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required placeholder="Contanos en qué podemos ayudarte..."></textarea>
+                </div>
+                <button type="submit" class="ns-btn ns-btn--accent">Enviar mensaje →</button>
+            </form>
+        </div>
+    </div>
+</section>
+</main>
+
+<div id="pie"></div>
+
+<script src="assets/js/tienda.js"></script>
+<script src="assets/js/chat.js"></script>
+</body>
+</html>

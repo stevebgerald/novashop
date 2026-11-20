@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda - NovaShop</title>
+    <link rel="icon" href="assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@500;600;700;800&display=swap">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/tienda.css">
+</head>
+<body data-pagina="tienda">
+
+<div id="cabecera"></div>
+
+<main class="ns-main">
+<div class="ns-container ns-shop">
+    <nav class="ns-breadcrumbs" aria-label="Breadcrumb">
+        <a href="index.html">Inicio</a>
+        <span>/</span>
+        <span id="miga-tienda">Tienda</span>
+    </nav>
+
+    <header class="ns-shop__head">
+        <h1 id="titulo-tienda">Tienda</h1>
+        <p class="ns-shop__count" id="cantidad-tienda"></p>
+    </header>
+
+    <button type="button" class="ns-btn ns-btn--navy ns-btn--sm ns-filtros-boton" id="boton-filtros">Filtrar y ordenar</button>
+
+    <div class="ns-shop__layout">
+        <aside class="ns-filters" id="filtros" aria-label="Filtros">
+            <h2>Categorías</h2>
+            <ul class="ns-filters__cats" id="filtro-categorias"></ul>
+
+            <h2>Filtrar por precio</h2>
+            <form class="ns-price-filter" id="form-precio">
+                <div class="ns-price-filter__row">
+                    <label>Min <input type="number" name="min" min="0" step="1" placeholder="0"></label>
+                    <label>Max <input type="number" name="max" min="0" step="1" placeholder="999"></label>
+                </div>
+                <button type="submit" class="ns-btn ns-btn--navy ns-btn--sm">Filtrar</button>
+            </form>
+
+            <h2>Ordenar por</h2>
+            <div class="ns-sort">
+                <label class="ns-sort__opt"><input type="radio" name="orden" value="destacados"> Destacados</label>
+                <label class="ns-sort__opt"><input type="radio" name="orden" value="menor"> Precio: menor a mayor</label>
+                <label class="ns-sort__opt"><input type="radio" name="orden" value="mayor"> Precio: mayor a menor</label>
+                <label class="ns-sort__opt"><input type="radio" name="orden" value="nombre"> Nombre</label>
+            </div>
+
+            <h2>Ofertas</h2>
+            <label class="ns-sort__opt"><input type="checkbox" id="solo-ofertas"> Solo productos en oferta</label>
+
+            <p class="ns-limpiar"><a class="ns-link" href="tienda.html" id="limpiar-filtros" hidden>Limpiar filtros</a></p>
+        </aside>
+
+        <div class="ns-shop__main">
+            <div class="ns-grid ns-grid--3" id="grilla-tienda"></div>
+            <nav class="ns-pagination" id="paginas-tienda" aria-label="Páginas"></nav>
+        </div>
+    </div>
+</div>
+</main>
+
+<div id="pie"></div>
+
+<script src="assets/js/tienda.js"></script>
+<script src="assets/js/chat.js"></script>
+</body>
+</html>

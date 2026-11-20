@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bot de Telegram - NovaShop</title>
+    <link rel="icon" href="assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@500;600;700;800&display=swap">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/tienda.css">
+</head>
+<body data-pagina="bot">
+
+<div id="cabecera"></div>
+
+<main class="ns-main">
+<section class="ns-page-hero">
+    <div class="ns-container">
+        <nav class="ns-breadcrumbs" aria-label="Breadcrumb">
+            <a href="index.html">Inicio</a>
+            <span>/</span>
+            <span>Bot de Telegram</span>
+        </nav>
+        <h1>Bot de Telegram</h1>
+        <p class="ns-lead">Consultá el catálogo, los precios, las ofertas y los envíos de NovaShop a cualquier hora, desde esta página o desde Telegram.</p>
+    </div>
+</section>
+
+<section class="ns-section">
+    <div class="ns-container ns-contact">
+        <div class="ns-contact__info">
+            <h2>¿Cómo se usa?</h2>
+            <ul class="ns-contact__list">
+                <li>
+                    <strong>Desde esta página</strong>
+                    <span>Tocá el botón Consultanos, abajo a la derecha, y escribí tu consulta. Responde en el momento.</span>
+                </li>
+                <li>
+                    <strong>Desde Telegram</strong>
+                    <span>Buscá <b data-bot-usuario>el bot de NovaShop</b>, tocá Iniciar y preguntá lo mismo.</span>
+                </li>
+                <li>
+                    <strong>Qué preguntar</strong>
+                    <span>Usá un comando o escribí el nombre de un producto, por ejemplo "teclado".</span>
+                </li>
+            </ul>
+            <div class="ns-bot-botones">
+                <button type="button" class="ns-btn ns-btn--accent" data-abrir-chat>Chatear ahora</button>
+                <a class="ns-btn ns-btn--navy" data-bot href="https://t.me/">Abrir en Telegram</a>
+            </div>
+        </div>
+
+        <div class="ns-contact__form-wrap">
+            <h2 class="ns-bot-titulo">Comandos</h2>
+            <table class="ns-cart-table">
+                <tbody>
+                    <tr><td><b>/start</b></td><td>Bienvenida y lista de comandos</td></tr>
+                    <tr><td><b>/productos</b></td><td>Todo el catálogo con precios</td></tr>
+                    <tr><td><b>/categorias</b></td><td>Categorías de la tienda</td></tr>
+                    <tr><td><b>/ofertas</b></td><td>Productos con descuento</td></tr>
+                    <tr><td><b>/destacados</b></td><td>Los más elegidos</td></tr>
+                    <tr><td><b>/buscar teclado</b></td><td>Busca un producto por nombre</td></tr>
+                    <tr><td><b>/hasta 100</b></td><td>Productos hasta ese precio</td></tr>
+                    <tr><td><b>/recomendar</b></td><td>Productos recomendados</td></tr>
+                    <tr><td><b>/envios</b></td><td>Costos y tiempos de envío</td></tr>
+                    <tr><td><b>/pagos</b></td><td>Medios de pago</td></tr>
+                    <tr><td><b>/garantia</b></td><td>Garantía y cambios</td></tr>
+                    <tr><td><b>/stock</b></td><td>Disponibilidad</td></tr>
+                    <tr><td><b>/seguimiento</b></td><td>Dónde está mi pedido</td></tr>
+                    <tr><td><b>/contacto</b></td><td>Horarios de atención</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+</main>
+
+<div id="pie"></div>
+
+<script src="assets/js/tienda.js"></script>
+<script src="assets/js/chat.js"></script>
+</body>
+</html>

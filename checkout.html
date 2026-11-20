@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checkout - NovaShop</title>
+    <link rel="icon" href="assets/img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@500;600;700;800&display=swap">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/tienda.css">
+</head>
+<body data-pagina="checkout">
+
+<div id="cabecera"></div>
+
+<main class="ns-main">
+<div class="ns-checkout-wrap">
+    <h1 class="ns-page-title">Checkout</h1>
+    <p class="ns-checkout-lead">Completá tus datos para confirmar la compra de forma segura.</p>
+
+    <div class="ns-page" id="checkout">
+        <form class="ns-checkout ns-contact-form" id="form-checkout">
+            <div class="ns-checkout__grid">
+                <div class="ns-checkout__fields">
+                    <h3>Datos de facturación y envío</h3>
+                    <div class="ns-form-grid">
+                        <div class="ns-form-row">
+                            <label for="nombre">Nombre *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="ns-form-row">
+                            <label for="apellido">Apellido *</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+                    </div>
+                    <div class="ns-form-grid">
+                        <div class="ns-form-row">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+                        <div class="ns-form-row">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required placeholder="+54 ...">
+                        </div>
+                    </div>
+                    <div class="ns-form-row">
+                        <label for="direccion">Dirección *</label>
+                        <input type="text" id="direccion" name="direccion" required placeholder="Calle y número">
+                    </div>
+                    <div class="ns-form-grid">
+                        <div class="ns-form-row">
+                            <label for="ciudad">Ciudad *</label>
+                            <input type="text" id="ciudad" name="ciudad" required>
+                        </div>
+                        <div class="ns-form-row">
+                            <label for="provincia">Provincia *</label>
+                            <input type="text" id="provincia" name="provincia" required>
+                        </div>
+                    </div>
+                    <div class="ns-form-grid">
+                        <div class="ns-form-row">
+                            <label for="cp">Código postal *</label>
+                            <input type="text" id="cp" name="cp" required>
+                        </div>
+                        <div class="ns-form-row">
+                            <label for="pago">Medio de pago *</label>
+                            <select id="pago" name="pago" required>
+                                <option value="Tarjeta de crédito o débito">Tarjeta de crédito o débito</option>
+                                <option value="Transferencia bancaria">Transferencia bancaria</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="ns-checkout__order">
+                    <h3>Tu pedido</h3>
+                    <div id="resumen"></div>
+                    <button type="submit" class="ns-btn ns-btn--accent ns-btn--ancho">Realizar el pedido</button>
+                </aside>
+            </div>
+        </form>
+    </div>
+</div>
+</main>
+
+<div id="pie"></div>
+
+<script src="assets/js/tienda.js"></script>
+<script src="assets/js/chat.js"></script>
+</body>
+</html>
